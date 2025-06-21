@@ -1,0 +1,19 @@
+:root {
+  --color-bg: #0f0f0f;
+  --color-text: #f0f0f0;
+  --color-muted: #888;
+  --color-accent: #00bfff;
+  --color-secondary: #1e1e1e;
+  --section-padding: 2rem;
+  --border-radius: 12px;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,36 @@
+.intro-container {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.intro-container h1 {
+  font-size: 2.5rem;
+  color: var(--color-accent);
+}
+
+.intro-container h2 {
+  font-size: 1.5rem;
+  color: var(--color-text);
+  margin-top: 0.5rem;
+}
+
+.intro-container p {
+  color: var(--color-muted);
+  margin-bottom: 1.5rem;
+}
+
+.resume-button {
+  background-color: var(--color-accent);
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: var(--border-radius);
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.resume-button:hover {
+  background-color: #009fe3;
+}

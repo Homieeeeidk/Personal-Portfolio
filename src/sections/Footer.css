@@ -1,0 +1,41 @@
+.site-footer {
+  background-color: var(--color-secondary);
+  padding: 2rem;
+  text-align: center;
+  color: var(--color-text);
+  margin-top: 4rem;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: var(--color-accent);
+}
+
+.footer-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.footer-credit {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+}

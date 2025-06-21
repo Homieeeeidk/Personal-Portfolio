@@ -1,0 +1,11 @@
+section {
+  min-height: 100vh;
+  scroll-margin-top: 50px;
+  padding: var(--section-padding);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
